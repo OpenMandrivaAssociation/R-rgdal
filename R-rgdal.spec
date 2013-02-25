@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.7_8
-Release:          3
+Version:          0.8.5
+Release:          1
 Summary:          Bindings for the Geospatial Data Abstraction Library
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.7-8.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/rgdal_0.8-5.tar.gz
 Requires:         R-methods R-sp
 Requires:         gdal
 Requires:         gdal-devel
@@ -54,7 +54,11 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/NAMESPACE
 %{rlibdir}/%{packname}/Meta
 %{rlibdir}/%{packname}/OSGeo4W_test
+%{rlibdir}/%{packname}/SVN_VERSION
 %{rlibdir}/%{packname}/R
+%{rlibdir}/%{packname}/data
+%{rlibdir}/%{packname}/doc
+%{rlibdir}/%{packname}/etc
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
 %{rlibdir}/%{packname}/pictures
