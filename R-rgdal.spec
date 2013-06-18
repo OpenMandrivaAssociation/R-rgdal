@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          0.8.5
-Release:          1
+Release:          2
 Summary:          Bindings for the Geospatial Data Abstraction Library
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
