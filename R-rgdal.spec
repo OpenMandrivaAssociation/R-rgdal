@@ -7,7 +7,7 @@ Release:          2
 Summary:          Bindings for the Geospatial Data Abstraction Library
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/rgdal_0.8-5.tar.gz
 Requires:         R-methods R-sp
 Requires:         gdal
